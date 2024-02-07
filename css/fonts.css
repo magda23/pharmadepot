@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'FiraGO Rg';
+    src: url('../fonts/FiraGO-Regular.eot');
+    src: url('../fonts/FiraGO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FiraGO-Regular.woff2') format('woff2'),
+        url('../fonts/FiraGO-Regular.woff') format('woff'),
+        url('../fonts/FiraGO-Regular.ttf') format('truetype'),
+        url('../fonts/FiraGO-Regular.svg#FiraGO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot LI';
+    src: url('../fonts/PharmadepotMtL-LightItalic.eot');
+    src: url('../fonts/PharmadepotMtL-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-LightItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-LightItalic.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-LightItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-LightItalic.svg#PharmadepotMtL-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot BlackItalic';
+    src: url('../fonts/PharmadepotMtL-BlackItalic.eot');
+    src: url('../fonts/PharmadepotMtL-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-BlackItalic.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-BlackItalic.svg#PharmadepotMtL-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Bold';
+    src: url('../fonts/PharmadepotMt-Bold.eot');
+    src: url('../fonts/PharmadepotMt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-Bold.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-Bold.woff') format('woff'),
+        url('../fonts/PharmadepotMt-Bold.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-Bold.svg#PharmadepotMt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Black';
+    src: url('../fonts/PharmadepotMt-Black.eot');
+    src: url('../fonts/PharmadepotMt-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-Black.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-Black.woff') format('woff'),
+        url('../fonts/PharmadepotMt-Black.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-Black.svg#PharmadepotMt-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot MTl Italic';
+    src: url('../fonts/PharmadepotMtL-Italic.eot');
+    src: url('../fonts/PharmadepotMtL-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-Italic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-Italic.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-Italic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-Italic.svg#PharmadepotMtL-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Black';
+    src: url('../fonts/PharmadepotMtL-Black.eot');
+    src: url('../fonts/PharmadepotMtL-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-Black.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-Black.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-Black.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-Black.svg#PharmadepotMtL-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Regular';
+    src: url('../fonts/PharmadepotMt-Regular.eot');
+    src: url('../fonts/PharmadepotMt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-Regular.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-Regular.woff') format('woff'),
+        url('../fonts/PharmadepotMt-Regular.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-Regular.svg#PharmadepotMt-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot mt BoldItalic';
+    src: url('../fonts/PharmadepotMt-BoldItalic.eot');
+    src: url('../fonts/PharmadepotMt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-BoldItalic.woff') format('woff'),
+        url('../fonts/PharmadepotMt-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-BoldItalic.svg#PharmadepotMt-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot MtL Bold';
+    src: url('../fonts/PharmadepotMtL-Bold.eot');
+    src: url('../fonts/PharmadepotMtL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-Bold.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-Bold.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-Bold.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-Bold.svg#PharmadepotMtL-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot MtL Light';
+    src: url('../fonts/PharmadepotMtL-Light.eot');
+    src: url('../fonts/PharmadepotMtL-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-Light.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-Light.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-Light.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-Light.svg#PharmadepotMtL-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Mt Italic';
+    src: url('../fonts/PharmadepotMt-Italic.eot');
+    src: url('../fonts/PharmadepotMt-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-Italic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-Italic.woff') format('woff'),
+        url('../fonts/PharmadepotMt-Italic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-Italic.svg#PharmadepotMt-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Mt BlackItalick';
+    src: url('../fonts/PharmadepotMt-BlackItalic.eot');
+    src: url('../fonts/PharmadepotMt-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMt-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMt-BlackItalic.woff') format('woff'),
+        url('../fonts/PharmadepotMt-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMt-BlackItalic.svg#PharmadepotMt-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus Rg';
+    src: url('../fonts/PharmadepotNus-Regular.eot');
+    src: url('../fonts/PharmadepotNus-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNus-Regular.woff2') format('woff2'),
+        url('../fonts/PharmadepotNus-Regular.woff') format('woff'),
+        url('../fonts/PharmadepotNus-Regular.ttf') format('truetype'),
+        url('../fonts/PharmadepotNus-Regular.svg#PharmadepotNus-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot MtL BoldItalic';
+    src: url('../fonts/PharmadepotMtL-BoldItalic.eot');
+    src: url('../fonts/PharmadepotMtL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotMtL-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotMtL-BoldItalic.woff') format('woff'),
+        url('../fonts/PharmadepotMtL-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotMtL-BoldItalic.svg#PharmadepotMtL-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L Black';
+    src: url('../fonts/PharmadepotNusL-Black.eot');
+    src: url('../fonts/PharmadepotNusL-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-Black.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-Black.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-Black.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-Black.svg#PharmadepotNusL-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus Italic';
+    src: url('../fonts/PharmadepotNus-Italic.eot');
+    src: url('../fonts/PharmadepotNus-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNus-Italic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNus-Italic.woff') format('woff'),
+        url('../fonts/PharmadepotNus-Italic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNus-Italic.svg#PharmadepotNus-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus BlackItalic';
+    src: url('../fonts/PharmadepotNus-BlackItalic.eot');
+    src: url('../fonts/PharmadepotNus-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNus-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNus-BlackItalic.woff') format('woff'),
+        url('../fonts/PharmadepotNus-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNus-BlackItalic.svg#PharmadepotNus-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L LightItalic';
+    src: url('../fonts/PharmadepotNusL-LightItalic.eot');
+    src: url('../fonts/PharmadepotNusL-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-LightItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-LightItalic.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-LightItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-LightItalic.svg#PharmadepotNusL-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L Rg';
+    src: url('../fonts/PharmadepotNusL-Regular.eot');
+    src: url('../fonts/PharmadepotNusL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-Regular.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-Regular.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-Regular.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-Regular.svg#PharmadepotNusL-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L BlackItalic';
+    src: url('../fonts/PharmadepotNusL-BlackItalic.eot');
+    src: url('../fonts/PharmadepotNusL-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-BlackItalic.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-BlackItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-BlackItalic.svg#PharmadepotNusL-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L Italic';
+    src: url('../fonts/PharmadepotNusL-Italic.eot');
+    src: url('../fonts/PharmadepotNusL-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-Italic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-Italic.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-Italic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-Italic.svg#PharmadepotNusL-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L Light';
+    src: url('../fonts/PharmadepotNusL-Light.eot');
+    src: url('../fonts/PharmadepotNusL-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-Light.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-Light.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-Light.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-Light.svg#PharmadepotNusL-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus Bold';
+    src: url('../fonts/PharmadepotNus-Bold.eot');
+    src: url('../fonts/PharmadepotNus-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNus-Bold.woff2') format('woff2'),
+        url('../fonts/PharmadepotNus-Bold.woff') format('woff'),
+        url('../fonts/PharmadepotNus-Bold.ttf') format('truetype'),
+        url('../fonts/PharmadepotNus-Bold.svg#PharmadepotNus-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus Black';
+    src: url('../fonts/PharmadepotNus-Black.eot');
+    src: url('../fonts/PharmadepotNus-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNus-Black.woff2') format('woff2'),
+        url('../fonts/PharmadepotNus-Black.woff') format('woff'),
+        url('../fonts/PharmadepotNus-Black.ttf') format('truetype'),
+        url('../fonts/PharmadepotNus-Black.svg#PharmadepotNus-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L BoldItalic';
+    src: url('../fonts/PharmadepotNusL-BoldItalic.eot');
+    src: url('../fonts/PharmadepotNusL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-BoldItalic.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-BoldItalic.svg#PharmadepotNusL-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pharmadepot Nus L Bold';
+    src: url('../fonts/PharmadepotNusL-Bold.eot');
+    src: url('../fonts/PharmadepotNusL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PharmadepotNusL-Bold.woff2') format('woff2'),
+        url('../fonts/PharmadepotNusL-Bold.woff') format('woff'),
+        url('../fonts/PharmadepotNusL-Bold.ttf') format('truetype'),
+        url('../fonts/PharmadepotNusL-Bold.svg#PharmadepotNusL-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

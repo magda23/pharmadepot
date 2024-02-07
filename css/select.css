@@ -1,0 +1,80 @@
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.rev-select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+}
+
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #edf0f5;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #91969f;
+  transition: all .3s ease;
+}
+
+.select-styled::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  right: 10px;
+  top: 10px;
+}
+
+.select-styled.active::after {
+  top: 16px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 90%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #edf0f5;
+  color: #91969f;
+  font-size: 14px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.select-options li {
+  margin: 0;
+  padding-bottom: 10px;
+  text-indent: 15px;
+  border-top: 1px solid #edf0f5;
+}
+
+
+.select-options li[rel="hide"] {
+  display: none;
+}
